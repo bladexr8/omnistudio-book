@@ -1,7 +1,7 @@
 ## Installing Omnistudio into a scratch org
 1. Visit the [Omnistudio Releases Page](https://help.salesforce.com/s/articleView?id=000394906&type=1) and locate the package you want to install.
 2. Select the **Production Install** link for the package and extract the package id from the URL, e.g. from the Summer '24 install URL https://login.salesforce.com/?ec=302&startURL=%2Fpackaging%2FinstallPackage.apexp%3Fp0%3D04t4W000003ChfPQAS%26InstHostname%3Dlogin.salesforce.com **04t4W000003ChfPQAS** is the package id.
-3. Construct a link in the following format and insert into a new browser tab https://<scratch org domain>.scratch.my.salesforce.com/packaging/installPackage.apexp?p0=<package id>
+3. Construct a link in the following format and insert into a new browser tab https://*scratch org domain*.scratch.my.salesforce.com/packaging/installPackage.apexp?p0=*package id*
 4. An example URL for installing the Summer '24 Omnistudio package - https://nosoftware-velocity-7865-dev-ed.scratch.my.salesforce.com/packaging/installPackage.apexp?p0=04t4W000003ChfPQAS
 
 # Salesforce DX Project: Next Steps
